@@ -174,12 +174,17 @@ z-index: -1;
     bottom: -30px;
 }
 
+.email {
+  text-align: start;
+  z-index: 100;
+}
+
 .email input[type="email"] {
   background: #403c3b;
   text-transform: uppercase;
   border: none;
   color: #fff;
-  width: 410px;
+  width: 400px;
   padding: 20px;
   font-size: 15px;
   border: 2px solid #eadada;
@@ -240,12 +245,17 @@ margin-left: -115px;
     bottom: -27px;
 }
 
+.email {
+  text-align: start;
+  z-index: 100;
+}
+
 .email input[type="email"] {
   background: #403c3b;
   text-transform: uppercase;
   border: none;
   color: #fff;
-  width: 410px;
+  width: 400px;
   padding: 20px;
   font-size: 15px;
   border: 2px solid #eadada;
