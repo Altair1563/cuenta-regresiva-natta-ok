@@ -46,7 +46,6 @@
 	position:relative;
 }
 
-
 .countDiv::after {
   background-color: #151414;
   content: "";
@@ -58,3 +57,5 @@
   top: 5px;
   width: 3px;
 }
+
+

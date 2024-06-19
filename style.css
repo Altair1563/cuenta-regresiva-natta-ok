@@ -95,7 +95,7 @@ z-index: -1;
 }
 .countDays::after{
     position: absolute;
-    content: 'days';
+    content: 'Dias';
     color: #fff;
     top: 0px;
     left: 10px;
@@ -109,7 +109,7 @@ z-index: -1;
 }
 .countHours::after {
   color: #fff;
-  content: "hours";
+  content: "Hrs.";
   font-family: "Raleway",sans-serif;
   font-size: 20px;
   font-weight: 200;
@@ -123,7 +123,7 @@ z-index: -1;
 }
 .countMinutes::after{
     position: absolute;
-    content: 'minutes';
+    content: 'Min.';
     color: #fff;
     top: 0px;
     left: -10px;
@@ -137,7 +137,7 @@ z-index: -1;
 }
 .countSeconds::after{
     position: absolute;
-    content: 'seconds';
+    content: 'Seg.';
     color: #fff;
     top: 0px;
     left: -10px;
@@ -157,9 +157,16 @@ z-index: -1;
     background-size: 100% 100%;
     z-index: 40
   }
+
+  .countDiv{
+ 
+    width:30px;
+
+  }
+
+
   .countdownHolder {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
     font: 40px / 1.5 'Open Sans Condensed', sans-serif;
     text-align: center;
     letter-spacing: -10px;
@@ -196,15 +203,16 @@ z-index: -1;
   }
 
   .countDiv{
-    display:inline-block;
-    width:40px;
-    height:2.7em;
-    position:relative;
+
+    width:30px;
+
   }
+
+
+  
 
   .countdownHolder {
     width: 100%;
-    margin: 0 auto;
     font: 40px / 1.5 'Open Sans Condensed', sans-serif;
     text-align: center;
     letter-spacing: -10px;
