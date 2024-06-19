@@ -188,7 +188,7 @@ z-index: -1;
 
   .wrapper{
     position: relative;
-    background-image: url(img/fondo2-cel.png);
+    background-image: url(img/fondo-425px.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 40
@@ -230,6 +230,16 @@ z-index: -1;
     font-size: 15px;
     border: 2px solid #eadada;
 }
+
+.gravity P {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40%;
+}
+
 .gravity {
 	width: 100%;
 	text-align: center;
