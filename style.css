@@ -1,66 +1,69 @@
-*{
-    margin: 0;
-    padding: 0
+* {
+  margin: 0;
+  padding: 0
 }
-.wrapper{
-    position: relative;
-    background-image: url(img/fondo1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    z-index: 40
+
+.wrapper {
+  position: relative;
+  background-image: url(img/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 40
 }
+
 .opacity {
-  background: rgba(79,70,62,0.5);
+  background: rgba(79, 70, 62, 0.5);
   height: 100%;
   position: absolute;
   width: 100%;
-z-index: -1;
+  z-index: -1;
 }
-.gravity {
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-}
-.gravity .logo{
 
+.gravity {
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
 }
+
 .gravity P {
   color: #ffffff;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 23px;
   font-weight: 600;
   text-align: center;
-    padding-top: 8%
+  padding-top: 8%
 }
-.countdown .back-text h4{
-    color: red;
-    background: red
-}
-#countdown {
 
+.countdown .back-text h4 {
+  color: red;
+  background: red
 }
-.email{
-    text-align: center;
- 
-    z-index: 100;
+
+.email {
+  text-align: center;
+
+  z-index: 100;
 }
+
 .email p {
   color: #fff;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 20px 0 50px;
 }
+
 .email input[type="email"] {
-    background: #403c3b;
-    text-transform: uppercase;
-    border: none;
-    color: #fff;
-    width: 390px;
-    padding: 20px;
-    font-size: 15px;
-    border: 2px solid #eadada;
+  background: #403c3b;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  width: 390px;
+  padding: 20px;
+  font-size: 15px;
+  border: 2px solid #eadada;
 }
+
 .email input[type="submit"] {
   background: #188588;
   border: medium none;
@@ -70,47 +73,55 @@ z-index: -1;
   width: 100px;
   margin-left: -115px;
 }
+
 .email input[placeholder] {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
   text-transform: capitalize;
 }
+
 .social-icon {
 
-	padding: 25px 0;
+  padding: 25px 0;
 }
+
 .icon {
-    width: 165px;
-    margin: 0px auto;
+  width: 165px;
+  margin: 0px auto;
 }
+
 .icon i {
   color: #fff;
   font-size: 21px;
   padding: 9px;
   color: #13a3a7;
 }
-.countDays{
-    position: relative;
+
+.countDays {
+  position: relative;
 }
-.countDays::after{
-    position: absolute;
-    content: 'Dias';
-    color: #fff;
-    top: 0px;
-    left: 10px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+
+.countDays::after {
+  position: absolute;
+  content: 'Dias';
+  color: #fff;
+  top: 0px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
-.countHours{
-    position: relative;
+
+.countHours {
+  position: relative;
 }
+
 .countHours::after {
   color: #fff;
   content: "Hrs.";
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 200;
   left: 2px;
@@ -118,39 +129,41 @@ z-index: -1;
   position: absolute;
   top: 0;
 }
-.countMinutes{
-    position: relative;
-}
-.countMinutes::after{
-    position: absolute;
-    content: 'Min.';
-    color: #fff;
-    top: 0px;
-    left: -10px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-}
-.countSeconds{
-    position: relative;
-}
-.countSeconds::after{
-    position: absolute;
-    content: 'Seg.';
-    color: #fff;
-    top: 0px;
-    left: -10px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+
+.countMinutes {
+  position: relative;
 }
 
+.countMinutes::after {
+  position: absolute;
+  content: 'Min.';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+.countSeconds {
+  position: relative;
+}
+
+.countSeconds::after {
+  position: absolute;
+  content: 'Seg.';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
 
 @media (max-width: 768px) {
-
-  .wrapper{
+  .wrapper {
     position: relative;
     background-image: url(img/fondo2-cel.png);
     background-repeat: no-repeat;
@@ -158,12 +171,9 @@ z-index: -1;
     z-index: 40
   }
 
-  .countDiv{
- 
-    width:30px;
-
+  .countDiv {
+    width: 30px;
   }
-
 
   .countdownHolder {
     width: 100%;
@@ -172,46 +182,45 @@ z-index: -1;
     letter-spacing: -10px;
     position: relative;
     bottom: -30px;
-}
+  }
 
-.email {
-  text-align: center;
-  z-index: 100;
-}
+  .email {
+    text-align: center;
+    z-index: 100;
+  }
 
-.email input[type="email"] {
-  background: #403c3b;
-  text-transform: uppercase;
-  border: none;
-  color: #fff;
-  width: 375px;
-  padding: 20px;
-  font-size: 15px;
-  border: 2px solid #eadada;
-}
-.email input[type="submit"] {
-background: #188588;
-border: medium none;
-color: #fff;
-font-size: 15px;
-padding: 10px;
-width: 90px;
-margin-left: -115px;
-}
+  .email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 375px;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+  }
 
-.gravity {
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-  top: 150px;
-  position: relative;
-}
-  
+  .email input[type="submit"] {
+    background: #188588;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    width: 90px;
+    margin-left: -115px;
+  }
+
+  .gravity {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    top: 150px;
+    position: relative;
+  }
 }
 
 @media (max-width: 425px) {
-
-  .wrapper{
+  .wrapper {
     position: relative;
     background-image: url(img/fondo-425px.jpg);
     background-repeat: no-repeat;
@@ -219,16 +228,15 @@ margin-left: -115px;
     z-index: 40
   }
 
-  .countdownHolder{
-    margin:0 auto;
-    letter-spacing:-10px;
+  .countdownHolder {
+    margin: 0 auto;
+    letter-spacing: -10px;
     position: relative;
     bottom: 40px;
-  
   }
 
-  .countDiv{
-    width:30px;
+  .countDiv {
+    width: 30px;
   }
 
   .countdownHolder {
@@ -238,54 +246,54 @@ margin-left: -115px;
     letter-spacing: -10px;
     position: relative;
     bottom: -27px;
-}
+  }
 
-.email {
-  text-align: start;
-  z-index: 100;
-}
+  .email {
+    text-align: start;
+    z-index: 100;
+  }
 
-.email input[type="email"] {
-  background: #403c3b;
-  text-transform: uppercase;
-  border: none;
-  color: #fff;
-  width: 375px;
-  padding: 20px;
-  font-size: 15px;
-  border: 2px solid #eadada;
-}
-.email input[type="submit"] {
-background: #188588;
-border: medium none;
-color: #fff;
-font-size: 15px;
-padding: 10px;
-width: 90px;
-margin-left: -115px;
-}
+  .email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 350px;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+  }
 
-.gravity P {
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-size: 23px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 40%;
-}
+  .email input[type="submit"] {
+    background: #188588;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    width: 90px;
+    margin-left: -115px;
+  }
 
-.gravity {
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-  top: 95px;
-  position: relative;
-}
-  
+  .gravity P {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40%;
+  }
+
+  .gravity {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    top: 95px;
+    position: relative;
+  }
 }
 
 @media (max-width: 375px) {
-  .wrapper{
+  .wrapper {
     position: relative;
     background-image: url(img/fondo-425px.jpg);
     background-repeat: no-repeat;
@@ -293,16 +301,16 @@ margin-left: -115px;
     z-index: 40
   }
 
-  .countdownHolder{
-    margin:0 auto;
-    letter-spacing:-10px;
+  .countdownHolder {
+    margin: 0 auto;
+    letter-spacing: -10px;
     position: relative;
     bottom: 40px;
-  
+
   }
 
-  .countDiv{
-    width:15px;
+  .countDiv {
+    width: 15px;
   }
 
   .countdownHolder {
@@ -312,57 +320,54 @@ margin-left: -115px;
     letter-spacing: -10px;
     position: relative;
     bottom: -27px;
+  }
+
+  .email {
+    text-align: start;
+    z-index: 100;
+  }
+
+  .email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 320px;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+  }
+
+  .email input[type="submit"] {
+    background: #188588;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    width: 90px;
+    margin-left: -115px;
+  }
+
+  .gravity P {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40%;
+  }
+
+  .gravity {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    top: 95px;
+    position: relative;
+  }
 }
 
-.email {
-  text-align: start;
-  z-index: 100;
-}
-
-.email input[type="email"] {
-  background: #403c3b;
-  text-transform: uppercase;
-  border: none;
-  color: #fff;
-  width: 320px;
-  padding: 20px;
-  font-size: 15px;
-  border: 2px solid #eadada;
-}
-.email input[type="submit"] {
-background: #188588;
-border: medium none;
-color: #fff;
-font-size: 15px;
-padding: 10px;
-width: 90px;
-margin-left: -115px;
-}
-
-.gravity P {
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-size: 23px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 40%;
-}
-
-.gravity {
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-  top: 95px;
-  position: relative;
-}
-
-
-
-}
-
-@media (max-width: 375px) {
-
-  .wrapper{
+@media (max-width: 320px) {
+  .wrapper {
     position: relative;
     background-image: url(img/fondo-425px.jpg);
     background-repeat: no-repeat;
@@ -370,16 +375,15 @@ margin-left: -115px;
     z-index: 40
   }
 
-  .countdownHolder{
-    margin:0 auto;
-    letter-spacing:-10px;
+  .countdownHolder {
+    margin: 0 auto;
+    letter-spacing: -10px;
     position: relative;
     bottom: 40px;
-  
   }
 
-  .countDiv{
-    width:8px;
+  .countDiv {
+    width: 8px;
   }
 
   .countdownHolder {
@@ -388,49 +392,74 @@ margin-left: -115px;
     text-align: center;
     letter-spacing: -10px;
     position: relative;
-    bottom: -27px;
+    bottom: -50px;
+  }
+
+  .countHours {
+    position: relative;
+    bottom: 60px;
 }
 
-.email {
-  text-align: start;
-  z-index: 100;
-}
-
-.email input[type="email"] {
-  background: #403c3b;
-  text-transform: uppercase;
-  border: none;
-  color: #fff;
-  width: 280px;
-  padding: 20px;
-  font-size: 15px;
-  border: 2px solid #eadada;
-}
-.email input[type="submit"] {
-background: #188588;
-border: medium none;
-color: #fff;
-font-size: 15px;
-padding: 10px;
-width: 90px;
-margin-left: -115px;
-}
-
-.gravity P {
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-size: 23px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 40%;
-}
-
-.gravity {
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-  top: 95px;
+.countMinutes {
   position: relative;
+  bottom: 30px;
 }
 
+.countDays {
+  position: relative;
+  bottom: 90px;
+}
+
+  .email {
+    text-align: start;
+    z-index: 100;
+  }
+
+  .email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 280px;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+  }
+
+  .email input[type="submit"] {
+    background: #188588;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    width: 90px;
+    margin-left: -115px;
+  }
+
+  .email p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0 50px;
+    position: relative;
+    top: 45px;
+}
+
+  .gravity P {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40%;
+  }
+
+  .gravity {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    top: 95px;
+    position: relative;
+  }
 }
